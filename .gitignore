@@ -1,0 +1,16 @@
+
+.ipynb_checkpoints/
+data/
+settings/
+
+/venv
+.idea
+/backup
+__pycache__
+
+# Compiled python modules.
+*.pyc
+
+
+
+
