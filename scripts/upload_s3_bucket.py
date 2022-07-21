@@ -38,10 +38,9 @@ def upload_file(file_dir, bucket, object_name=None):
 
 if __name__ == "__main__":
 
-    file_dir = "/Users/santanusarma/Dropbox/Jagriti/Programming/data_engineering_prep/data_engineering_interview_prep/data/testdatas3/nba2"
+    file_dir = "../data/testdatas3/nba2"
     bucket = "data-analysis-with-nba"
 
     upload_file(file_dir=file_dir, bucket=bucket)
 
 
-# print(os.path.basename('/Users/santanusarma/Dropbox/Jagriti/Programming/data_engineering_prep/data_engineering_interview_prep/data/testdatas3/2022-01-03'))

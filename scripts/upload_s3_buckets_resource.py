@@ -34,7 +34,7 @@ def upload_file(file_dir, bucket, object_name=None):
 
 
 if __name__ == '__main__':
-    file_dir = "/Users/santanusarma/Dropbox/Jagriti/Programming/data_engineering_prep/data_engineering_interview_prep/data/testdatas3/2022-01-03"
+    file_dir = "../data/testdatas3/2022-01-03"
     bucket = "udemy-xetra-pds-2"
 
     upload_file(file_dir=file_dir, bucket=bucket)
